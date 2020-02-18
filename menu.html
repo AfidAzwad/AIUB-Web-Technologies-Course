@@ -1,0 +1,74 @@
+<html>
+  <head>
+  <div align="center">
+  <h1><font color="" size="6">Menu List</font></h1>
+  </div>
+  </head>
+  
+  <table align="center">
+  
+  <tr>
+  <td><b>Fried Chicken(Price:150/-):</b></td>
+  <td><input type="number" name="" value="5"></td>
+  </tr>
+  <tr>
+
+  <tr>
+  <td><b>Double Cheese Burger(Price: 250/-):</b></td>
+  <td><input type="number" name="" value=""></td>
+  </tr>
+
+  <tr>
+  <td><b>Salad (Price: 50):</b></td>
+  <td><input type="number" name="" value=""></td>
+  </tr>
+  
+  </table>
+  
+  <style>
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  background-color: #f4511e;
+  border: 5px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 12pxpx;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:order span {
+  padding-right: 15px;
+}
+
+.button:order span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+<form align="center">
+<button class="button" style="vertical-align:middle" formaction=""><span>Order</span></button>
+</form>
+ 
+
+</html>
