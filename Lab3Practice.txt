@@ -1,0 +1,24 @@
+Assume you are a restaurant who takes orders for food.
+
+Let's say you sell 3 items:
+
+a) Fried Chicken (Price: 150)
+b) Double Cheese Burger (Price: 250)
+c) Salad (Price: 50)
+
+A customer can order any of these items as much as possible.
+
+If any item is ordered 3 or more times that item's price becomes 80% of its original price.
+
+For example, if someone ordered, 2 (a), 1 (c) and 1 (b), the total price would be = 300 + 50 + 250 = 600.
+However, if someone ordered 3(a), 5(c) and a (b), the total price would be = 360 + 200 + 250 = 810
+
+Show the total price of the order after the order button is clicked.
+
+Additional condition:
+
+Customer must order 2 types of foods to complete his order. They cannot only order one type of food from the menu. 
+If they do, have some validation in check so that exception can be thrown with a proper error message guiding the customer to order correctly.
+
+
+Answer : https://tinyurl.com/t5mthrd
